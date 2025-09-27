@@ -21,7 +21,7 @@ The project implements three different compression approaches:
 ## Requirements
 
 - Java 11 or higher
-- [OpenJDK JOL](https://openjdk.java.net/projects/code-tools/jol/) (for memory layout analysis)
+- [OpenJDK JOL](https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.17) (for memory layout analysis)
 
 ## Project Structure
 
