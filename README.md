@@ -39,7 +39,7 @@ src/
 
 ### Compilation
 
-Compile all Java files in the project:
+Compile all Java files and output the `.class` files to an `out` directory:
 
 ```bash
 javac -cp path/to/jol-core.jar src/*.java src/compression/*.java
@@ -47,10 +47,10 @@ javac -cp path/to/jol-core.jar src/*.java src/compression/*.java
 
 ### Running the Program
 
-Run the program with one of the following compression types as an argument:
+Run the program from the `out` directory with one of the following compression types as an argument:
 
 ```bash
-java -cp path/to/jol-core.jar:src BitPacking [COMPRESSION_TYPE]
+java -cp path/to/jol-core.jar;out" compression.BitPacking [COMPRESSION_TYPE]
 ```
 
 Where `[COMPRESSION_TYPE]` can be:
@@ -63,7 +63,7 @@ Where `[COMPRESSION_TYPE]` can be:
 ### Example
 
 ```bash
-java -cp path/to/jol-core.jar:src BitPacking ALL
+java -cp path/to/jol-core.jar;out" compression.BitPacking ALL
 ```
 
 ## How the Algorithms Work
