@@ -42,7 +42,7 @@ src/
 Compile all Java files and output the `.class` files to an `out` directory:
 
 ```bash
-javac -cp path/to/jol-core.jar src/*.java src/compression/*.java
+javac -cp path/to/jol-core.jar -d out src/compression/*.java
 ```
 
 ### Running the Program
