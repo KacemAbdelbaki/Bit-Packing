@@ -116,11 +116,3 @@ int listSize = 1000;
 // Modify the range of random integers
 decompressedList.add(rand.nextInt(0, 1000));
 ```
-
-## License
-
-This project is available under the MIT License. See the LICENSE file for more details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
